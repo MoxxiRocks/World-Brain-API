@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: world-brain-api
+    env: node
+    plan: free
+    startCommand: node index.js
